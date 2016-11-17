@@ -1,0 +1,117 @@
+#wrap/*设置包裹层*/
+{
+   margin:0px 90px 0px 90px;
+}
+nav ul {
+    background-color:black; 
+    list-style-type: none;
+    padding: 10px 5px 10px 5px;/*上下设置整体框的高度*/
+    text-align:left;
+}
+nav ul li {    
+    display:inline-block;/*设置这三个的形状*/
+    padding:5px 5px 5px 5px;/*改变各个链接之间的间距*/
+    border-top-left-radius:10px;  
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.color1{
+    background-color:crimson;
+}
+.color2{
+    background-color:chocolate;
+}
+.color3{
+    background-color:forestgreen;
+}/*以上设置了三个点*/
+#rcorners1
+{
+    width:300px; height:50px;
+    background-color:blueviolet;
+    border-radius:25px;
+    padding:10px;
+}
+
+#rcorners2{
+    border:2px solid #a1a1a1;
+    border-radius:25px;
+    background-color:#dddddd;
+    width:280px; padding:10px 40px;
+}
+#rcorners3{
+     width:340px; height:100px;
+    background-image:url(images/b.gif);
+    background-position:center left;/*repeat position设置一下会更好*/
+    background-repeat:no-repeat;
+    border-radius:50px/15px;
+    padding:10px;
+}
+.hy{
+   padding:6px 10px 3px 10px;
+   border-top-left-radius:10px;  
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    background-color:deeppink;
+}
+
+#section{
+     margin:-300px 0px 0px 400px;
+}
+#shadow{
+    width:200px;height:100px;
+    background-color:aqua;/*设置一下背景颜色会更好*/
+    box-shadow:10px 10px 5px #888888;
+}
+#round{
+    border:15px solid transparent;/*transparent透明的*/
+    width:250px; padding:10px 20px;
+    -webkit-border-image:url(images/border.png) 30 30 round;
+    -o-border-image:url(images/border.png) 30 30 round;
+    border-image:url(images/border.png) 30 30 round;
+}
+#stretch{
+    border:15px solid transparent;/*transparent透明的*/
+    width:250px; padding:10px 20px;
+    -webkit-border-image:url(images/border.png) 30 30 stretch;
+    -o-border-image:url(images/border.png) 30 30 stretch;
+    border-image:url(images/border.png) 30 30 stretch; 
+}
+#aside{
+ margin:-350px 0px 0px 770px;
+}
+#text{
+    text-shadow:3px 3px 3px blue;
+}
+/*这四个a不能都放在#link里边，这样是没用的*/  
+#link1  a:link{color:lawngreen; background-color:coral;} 
+#link1  a:visited{color:#00FF00; background-color:#B2FF99;}
+#link1  a:hover{color:#FF00FF; background-color:darkgray;
+ font-size:120%; font-family:inherit; text-decoration:underline;}
+/*这三种方法可以增加链接效果*/
+#link1  a:active{color:#0000FF; background-color:dodgerblue;}
+  
+#link2 a:link,a:visited{
+    display:block;
+    font-weight:bold;/*宽的字体*/
+    color:#FFFFFF;
+    background-color:#98bf21;
+    width:140px;
+    text-align:center; padding:4px;
+    text-decoration:none;/*没有下划线*/
+}
+#link2 a:hover,a:active{
+    background-color:#7A991A;/*颜色更深*/
+}
+
+
+
+
+
+
+
+
+
+

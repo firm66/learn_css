@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标准化网页布局</title>
+</head>
+<body>
+    <p>一、创建图片链接：
+        <a href="http://www.w3cschool.cc/html/html-tutorial.html">
+            <img src="images/25a.jpg" alt="blue" width="62px" height="40px"></a>
+    </p>
+    <p>二、在新窗口中打开链接：
+        <a href="http://www.w3cschool.cc/" target="_blank">访问w3cschool.cc!</a></p>
+ <!-- target="_blank"在新窗口中打开网页， style="text-decoration:none;" 创建没有下划线的链接-->  
+    <p>三、创建图像映射:点击什么颜色饮料，就会出来此饮料</p>
+    <img src="images/drinks.gif" alt="Drinks" usemap="#drinksmap">
+    <map name="drinksmap">
+        <area shape="rectangle" coords="0,0,55,100" alt="green" href="images/green.jpg">
+        <area shape="rectangle" coords="55,0,102,100" alt="blue" href="images/blue.jpg">
+        <area shape="rectangle" coords="102,0,144,100" alt="lightblue" href="images/lightblue.jpg">
+        <area shape="rectangle" coords="144,0,204,100" alt="rad" href="http://www.w3school.com.cn/tags/att_area_coords.asp">
+    </map>
+    <!--建立图像热点可以用dreamweaver多练习-->
+
+    <p>四、在此演示如何改变文字的方向，非常神奇</p>
+    <p><bdo dir="rtl">在此演示如何改变文字的方向，非常神奇</bdo></p>
+    
+    
+    
+    
+    
+    <a href="top">回顶部</a>
+</body>
+
+</html>
